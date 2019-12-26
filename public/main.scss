@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+    align-items: center;
+    height: 70px;
+}
+
+.navItems {
+    display: flex;
+    flex-direction: row;
+
+    a {
+        text-decoration: none;
+        padding: 15px 0px;
+        margin: 0px 20px;
+    }
+
+    li {
+        list-style-type: none;
+    }
+}
+
+.navLogo {
+    width: 100px;
+}
+
+.welcome {
+    width: 100vw;
+    height: 93vh;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 150px;
+
+    h2 {
+        font-size: 40px;
+    }
+
+    blockquote {
+        padding-top: 20px;
+        font-style: italic;
+    }
+}
